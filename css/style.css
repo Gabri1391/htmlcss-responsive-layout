@@ -13,6 +13,10 @@
     margin: 0 auto;
 }
 
+.white{
+    color: #fff;
+}
+
 /* nav */
 nav{
     background-color: #0084FD;
@@ -28,7 +32,7 @@ nav{
     font-size: 24px;
 }
 
-/* section */
+/*  first section */
 
 .purple{
     background-color: #9792E4;
@@ -44,16 +48,39 @@ nav{
     margin: 20px 0;
     flex-wrap: wrap;
     width: 100%;
-    height: 300px;
     border: 1px dashed black;
 }
 
-.large{
+.col-large{
+    margin: 20px 0;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px dashed black;
     height: 400px;
 }
 
-.card{
+.card-large{
     height: 100%;
     background-color: #B5DDFF;
     border-radius: 20px;
+}
+.card{
+    height: 300px;
+    background-color: #B5DDFF;
+    border-radius: 20px;
+}
+
+/* images-section */
+.images-col{
+    padding: 20px 0;
+}
+
+.images-card{
+    height: 300px;
+    background-color: #B5DDFF;
+}
+
+
+.purple > .row > h2, p{
+    padding: 50px 0;
 }
