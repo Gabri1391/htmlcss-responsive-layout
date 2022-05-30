@@ -130,8 +130,41 @@ h4, h3{
     background-color: #fff;
 }
 
+/* about us */
+
 .aboutus-row{
     border: 1px solid red;
     width: 80%;
     margin: 0 auto;
+    flex-direction: column;
+}
+
+.aboutus-card{
+    width: 55%;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px dashed black;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+/* get started */
+.box{
+    height: 500px;
+    border: 1px solid black;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    height: 200px;
+}
+
+footer p{
+    padding-top: 30px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
 }
