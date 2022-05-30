@@ -17,6 +17,10 @@
     color: #fff;
 }
 
+.bg-white{
+    background-color: #fff;
+}
+
 /* nav */
 nav{
     background-color: #0084FD;
@@ -34,8 +38,12 @@ nav{
 
 /*  first section */
 
-.purple{
+.bg-purple{
     background-color: #9792E4;
+}
+
+.purple{
+    color: #9792E4;
 }
 
 .row{
@@ -81,6 +89,49 @@ nav{
 }
 
 
-.purple > .row > h2, p{
-    padding: 50px 0;
+h2, p{
+    padding: 20px 0;
+}
+
+#testimonial{
+    text-align: center;
+}
+
+h4, h3{
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* testimonial-section */
+.testimonial-row{
+    width: 100%;
+    border: 1px solid red;
+    margin: 50px 0;
+}
+.testimonial-col{
+    width: 55%;
+    height: 250px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background-color:#9792E4;
+    border: 1px dashed black;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.benefits-col{
+    width: 55%;
+    height: 250px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    border: 1px dashed black;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.aboutus-row{
+    border: 1px solid red;
+    width: 80%;
+    margin: 0 auto;
 }
