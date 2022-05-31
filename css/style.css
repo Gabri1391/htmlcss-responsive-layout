@@ -107,6 +107,8 @@ h4, h3{
     width: 100%;
     border: 1px solid red;
     margin: 50px 0;
+    display: flex;
+    flex-direction: column;
 }
 .testimonial-col{
     width: 55%;
@@ -119,10 +121,19 @@ h4, h3{
     margin-bottom: 10px;
 }
 
+.benefits-row{
+    width: 100%;
+    border: 1px solid red;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+
 .benefits-col{
     width: 55%;
     height: 250px;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
     border-radius: 20px;
     border: 1px dashed black;
     margin: 0 auto;
@@ -134,25 +145,39 @@ h4, h3{
 
 .aboutus-row{
     border: 1px solid red;
-    width: 80%;
+    width: 1000%;
     margin: 0 auto;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.aboutus-row{
+    display: flex;
+    width:100%;
     flex-direction: column;
 }
 
-.aboutus-card{
-    width: 55%;
-    height: 350px;
+
+.aboutus-col{
+    width: 80%;
     border-radius: 20px;
     border: 1px dashed black;
     margin: 0 auto;
-    margin-bottom: 10px;
+    padding: 10px 0;
     background-color: #fff;
+}
+
+.aboutus-card{
+    border: 1px dashed red;
+    height: 250px;
+    
 }
 
 /* get started */
 .box{
     height: 500px;
-    border: 1px solid black;
+    padding: 20px;
+    border: 1px dashed black;
 }
 
 /* footer */
