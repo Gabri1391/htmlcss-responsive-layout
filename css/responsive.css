@@ -4,43 +4,62 @@
    }
 
 
-  #intro .row{
-       display: flex;
-       flex-wrap: wrap;
-   }
+   #intro .row{
+    display: flex;
+    flex-wrap: wrap;
+}
 
-   #intro .col{
-       width: calc(100% / 3);
-   }
+#intro .col{
+    width: calc(100% / 3);
+}
 
-   #intro .col .card:firts-child{
-       flex-grow: 1;
-   }
+#intro .col:first-child{
+    width: calc(100% / 3 * 2);
+}
+
+#intro .col{
+    padding: 0 10px;
+}
 
    
 
-   .card{
-       padding: 20px;
+#planning .card{
+       padding: 0 20px;
+       width: 100%;
    }
 
-   .images-row{
+#planning .sec-col{
+   margin: 0 30px;
+}
+
+#planning .row{
        width: 100%;
        padding: 20px 0;
    }
 
-   .images-card{
-    width: 100%;
-    height: 500px;
-   }
 
-   
-.images-col > h2{
+#planning .col > h2{
     padding: 20px 0;
     font-size: 50px;
 }
 
+.fa-arrow-down{
+    margin-bottom: 20px;
+}
+
 .testimonial-col{
     width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonial-img{
+    width: 20%;
+}
+
+.bio{
+    width: 55%;
+    text-align: center;
 }
 
 .benefits h3{
@@ -90,18 +109,7 @@
         display: block;
     }
 
-    #intro .row{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    #intro .col:first-child{
-        width: calc(100% / 3 * 2);
-    }
-
-    #intro .col{
-        padding: 0 10px;
-    }
+    
 
     #first-planning
     

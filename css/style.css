@@ -53,6 +53,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 ul{
@@ -181,7 +182,6 @@ a{
 }
 .testimonial-col{
     width: 55%;
-    flex-wrap: wrap;
     border-radius: 20px;
     background-color:#9792E4;
     margin: 0 auto;
@@ -239,21 +239,10 @@ a{
     text-align: center;
 }
 
-
-
-
-
 /* about us */
 
 .aboutus-row{
     border: 1px solid red;
-    width: 1000%;
-    margin: 0 auto;
-    flex-direction: column;
-    margin-bottom: 30px;
-}
-
-.aboutus-row{
     display: flex;
     width:100%;
     flex-direction: column;
@@ -269,10 +258,16 @@ a{
     background-color: #fff;
 }
 
+.fa-quote-left{
+    font-size: 60px;
+    color: #9792E4;
+    position: relative;
+    right: 50px;
+    bottom:80px;
+}
+
 .aboutus-card{
     border: 1px dashed red;
-    height: 250px;
-
 }
 
 /* get started */
@@ -280,6 +275,11 @@ a{
     height: 500px;
     padding: 20px;
     border: 1px dashed black;
+}
+
+#get-started{
+    color: #fff;
+    text-align: center;
 }
 
 /* footer */
