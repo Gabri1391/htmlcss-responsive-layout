@@ -47,14 +47,19 @@
     margin-bottom: 20px;
 }
 
+
 .testimonial-col{
     width: 100%;
-    display: flex;
-    flex-direction: row;
-}
 
+}
+.testimonial-card{
+    display: flex;
+    padding-left: 20px;
+    
+}
 .testimonial-img{
-    width: 20%;
+    width: 150px;
+    height: 150px;
 }
 
 .bio{
@@ -84,6 +89,10 @@
 .aboutus-col{
     width: 45%;
 }
+.aboutus-img{
+    width: 250px;
+    height: 250px;
+}
 
 
 #aboutus h2{
@@ -109,10 +118,33 @@
         display: block;
     }
 
-    
+    #planning .row{
+        display: flex;
+    }
 
-    #first-planning
-    
+    #planning .col, .sec-col{
+        width: 300px;
+        margin: 0 auto;
 
+    }
+
+    #planning h2{
+        font-size: 0.3rem;
+    }
+
+    #planning p{
+        font-size:0.8rem;
+    }
+
+    .benefits-col{
+        width: calc(100% / 3 - 20px);
+        margin: 10px;
+    }
 }
+
+    
+
+    
+
+
 
