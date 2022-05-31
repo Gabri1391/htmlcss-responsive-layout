@@ -1,7 +1,31 @@
+/* Generics */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Palette{
+    azzurro: #B5DDFF;
+    blu: #0084FD;
+    lilla: #9792E4;
+    gold: #FDC15B;
+
+} */
+
+/* Utils */
+.bg-purple{
+    background-color: #9792E4;
+}
+
+.purple{
+    color: #9792E4;
+}
+
+
+body{
+    padding-top: 80px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .flex{
@@ -21,13 +45,22 @@
     background-color: #fff;
 }
 
-/* nav */
-nav{
+/* header */
+header{
+    height:80px;
     background-color: #0084FD;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+ul{
+    display: none;
 }
 
 #navbar{
-    height:100px;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,90 +69,136 @@ nav{
     font-size: 24px;
 }
 
-/*  first section */
-
-.bg-purple{
-    background-color: #9792E4;
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
 }
 
-.purple{
-    color: #9792E4;
+#get-started{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    color:#000;
+    text-align: center;
+
 }
 
-.row{
+/* intro */
+
+#intro .row{
     width: 100%;
-    border: 2px dashed red;
     margin-top: 50px;
 }
 
-.col{
+#intro .col{
     margin: 20px 0;
-    flex-wrap: wrap;
     width: 100%;
-    border: 1px dashed black;
+    text-align: center;
 }
 
-.col-large{
-    margin: 20px 0;
-    flex-wrap: wrap;
-    width: 100%;
-    border: 1px dashed black;
-    height: 400px;
-}
-
-.card-large{
-    height: 100%;
-    background-color: #B5DDFF;
+#intro .card{
     border-radius: 20px;
-}
-.card{
-    height: 300px;
+    padding-top: 20px;
     background-color: #B5DDFF;
-    border-radius: 20px;
 }
 
-/* images-section */
-.images-col{
+#intro h3{
+    color: #0084FD;
+}
+
+#intro p{
+    padding: 20px;
+}
+
+#phone-img{
+    width: 200px;
+}
+
+#intro i{
+    color:#0084FD;
+    text-align: center;
+    font-size: 4rem;
+}
+
+/* starting planning */
+#planning .col{
     padding: 20px 0;
 }
 
-.images-card{
-    height: 300px;
-    background-color: #B5DDFF;
+#first-planning{
+    width: 100%;
 }
 
-
-h2, p{
+#planning h2, p{
     padding: 20px 0;
+    text-align: center;
 }
+
+#planning h2{
+    font-size: 2rem;
+}
+
+#planning .sec-col{
+    background-color: #fff;
+    border-radius: 20px;
+    color: #000;
+    text-align: center;
+}
+
+
+#sec-planning{
+    width: 100%;
+}
+
+.fa-arrow-down{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+}
+
 
 #testimonial{
     text-align: center;
+    margin-top: 30px;
 }
 
-h4, h3{
-    text-align: center;
+#testimonial h4, h2{
     padding: 20px 0;
+}
+
+#testimonial h2{
+    font-size: 3rem;
+    color:#9792E4
 }
 
 /* testimonial-section */
 .testimonial-row{
     width: 100%;
-    border: 1px solid red;
-    margin: 50px 0;
     display: flex;
     flex-direction: column;
 }
 .testimonial-col{
     width: 55%;
-    height: 250px;
     flex-wrap: wrap;
     border-radius: 20px;
     background-color:#9792E4;
-    border: 1px dashed black;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 20px 0;
+    color: #fff;
 }
+
+.testimonial-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+/* benefits */
 
 .benefits-row{
     width: 100%;
@@ -131,7 +210,6 @@ h4, h3{
 
 .benefits-col{
     width: 55%;
-    height: 250px;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
@@ -139,7 +217,31 @@ h4, h3{
     margin: 0 auto;
     margin-bottom: 10px;
     background-color: #fff;
+    padding:0 20px;
 }
+
+#benefits a{
+    display: inline-block;
+    background-color: #9792E4;
+    color: #fff;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+#benefits h3{
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+
+
 
 /* about us */
 
@@ -170,7 +272,7 @@ h4, h3{
 .aboutus-card{
     border: 1px dashed red;
     height: 250px;
-    
+
 }
 
 /* get started */

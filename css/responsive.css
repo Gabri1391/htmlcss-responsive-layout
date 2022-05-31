@@ -1,26 +1,23 @@
 @media screen and (min-width: 768px) {
    .container{
-       max-width: 700px;
+       max-width: 740px;
    }
 
-   .row{
+
+  #intro .row{
        display: flex;
        flex-wrap: wrap;
    }
 
-   .col-large{
-       width: 60%;
-       padding-right: 10px;
-       margin: 0 auto;
-       margin-bottom: 20px;
+   #intro .col{
+       width: calc(100% / 3);
    }
 
-   .col{
-       width: 30%;
-       padding-right: 10px;
-       margin: 0 auto;
-       margin-bottom: 20px;
+   #intro .col .card:firts-child{
+       flex-grow: 1;
    }
+
+   
 
    .card{
        padding: 20px;
@@ -82,18 +79,32 @@
 
 @media screen and (min-width:992px) {
     .container{
-        max-width: 900px;
+        max-width: 950px;
     }
 
-    .images-row{
+    .hamburger-menu{
+        display: none;
+    }
+
+    ul{
+        display: block;
+    }
+
+    #intro .row{
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
-    .images-col{
-        width: 45%;
+    #intro .col:first-child{
+        width: calc(100% / 3 * 2);
     }
 
+    #intro .col{
+        padding: 0 10px;
+    }
+
+    #first-planning
+    
 
 }
 

@@ -7,49 +7,75 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="https://kit.fontawesome.com/ce6ffbabaa.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>LOGO</title>
 </head>
 <body>
-    <!-- nav -->
-    <nav>
+    <!-- header -->
+    <header>
         <div id="navbar" class="container">
-            <h1>logo</h1>
-            <i class="fa-solid fa-bars"></i>
+            <img src="img/logo.png" alt="logo">
+            <span class="hamburger-menu"><i class="fa-solid fa-bars"></i></span>
+            <ul>
+                <li class="flex">
+                    <a href="#">Planning</a>
+                    <a href="#">Testimonials</a>
+                    <a href="#">Features</a>
+                    <a href="#">About Us</a>
+                    <a id="get-started" href="#">Get started</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </header>
 
     <!-- section -->
-    <section>
+    <section id="intro">
         <div class="container">
             <div class="row">
 
-                <div class="col-large">
-                    <div class="card-large">
+                <div class="col">
+                    <div class="card">
+                        <div class="intro-text">
+                            <h3>Get a Demo application</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sapiente eius ab rerum enim, sit amet, optio, asperiores mollitia minus consequatur itaque. Sed qui voluptatibus eaque animi est error blanditiis.</p>
+                        </div>
+                        <img id="phone-img" src="img/phone.png" alt="mobile phone">
 
                     </div>
                 </div>
 
                 <div class="col">
                     <div class="card">
+                        <i class="fa-solid fa-file-code"></i>
+                        <h3>Clean Code</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, sequi laborum, sit dolore odio sapiente numquam molestias dolores doloremque delectus dolorem error eos, aperiam quasi dignissimos fugit earum vel! Harum?</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <i class="fa-solid fa-compass-drafting"></i>
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, sequi laborum, sit dolore odio sapiente numquam molestias dolores doloremque delectus dolorem error eos, aperiam quasi dignissimos fugit earum vel! Harum?</p>
 
                     </div>
                 </div>
 
                 <div class="col">
                     <div class="card">
-
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>Developement</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, sequi laborum, sit dolore odio sapiente numquam molestias dolores doloremque delectus dolorem error eos, aperiam quasi dignissimos fugit earum vel! Harum?</p>
                     </div>
                 </div>
 
                 <div class="col">
                     <div class="card">
-
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card">
-
+                        <i class="fa-solid fa-bullhorn"></i>
+                        <h3>Branding</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, sequi laborum, sit dolore odio sapiente numquam molestias dolores doloremque delectus dolorem error eos, aperiam quasi dignissimos fugit earum vel! Harum?</p>
                     </div>
                 </div>
                 
@@ -58,17 +84,24 @@
 
     </section>
 
-    <section class="bg-purple white">
+    <!-- starting planning -->
+    <section id="planning" class="bg-purple white">
         <div class="container">
-            <div class="images-row">
-                <div class="images-col">
-                    <div class="images-card"></div>
-                    <h2>strategic planning</h2>
+            <div class="row">
+                <div class="col">
+                    <div class="card"></div>
+                    <img id="first-planning" src="img/planning1.png" alt="Planning1">
+                    <h2>Strategic Planning</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam harum tempore eius qui cum odit. Incidunt culpa sapiente exercitationem </p>
                     
                 </div>
-                <div class="images-col">
-                    <div class="images-card"></div>
+                <div class="sec-col">
+                    <div class="card">
+                        <img id="sec-planning" src="img/planning2.png" alt="Planning 2">
+                        <h4>App Developement</h4>
+                        <p><i>An on-demand app for your delivery business to reach your targeted customers without any interruptions.</i></p>
+                        <i class="fa-solid fa-arrow-down bg-purple"></i>
+                    </div>
                 </div>
             </div>
 
@@ -84,15 +117,27 @@
 
             <div class="testimonial-row">
                 <div class="testimonial-col">
-                    <div class="testimonial-card"></div>
+                    <div class="testimonial-card">
+                        <img class="testimonial-img" src="img/testimonial1.jpg" alt="Testimonial1">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium officia perferendis adipisci. Iure quam corporis.</p>
+                        <h4>MATT REYNOLDS</h4>
+                    </div>
                 </div>
 
                 <div class="testimonial-col">
-                    <div class="testimonial-card"></div>
+                    <div class="testimonial-card">
+                        <img class="testimonial-img" src="img/testimonial2.jpg" alt="Testimonial2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium officia perferendis adipisci. Iure quam corporis.</p>
+                        <h4>CELIA ALMEDA</h4>
+                    </div>
                 </div>
 
                 <div class="testimonial-col">
-                    <div class="testimonial-card"></div>
+                    <div class="testimonial-card">
+                        <img class="testimonial-img" src="img/testimonial3.jpg" alt="Testimonial3">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium officia perferendis adipisci. Iure quam corporis.</p>
+                        <h4>BOB ROBERTS</h4>
+                    </div>
                 </div>
             </div>
         </div>
@@ -105,28 +150,60 @@
             <h3>Benefits of working with us</h3>
             <div class="benefits-row">
                 <div class="benefits-col">
+                    <div class="benefits-card">
+                        <h2 class="purple">01</h2>
+                        <h4 class="purple">Hight Quality</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos provident, repudiandae enim, nisi voluptatem perspiciatis non quam fuga esse dignissimos perferendis.</p>
+                        <a href="#">more</a>
+                    </div>
+                </div>
+
+                <div class="benefits-col">
+                    <div class="benefits-card">
+                        <h2 class="purple">02</h2>
+                        <h4 class="purple">Creative Team</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos provident, repudiandae enim, nisi voluptatem perspiciatis non quam fuga esse dignissimos perferendis.</p>
+                        <a href="#">more</a>
+                    </div>
+                </div>
+
+                <div class="benefits-col">
+                    <div class="benefits-card">
+                        <h2 class="purple">03</h2>
+                        <h4 class="purple">Amazing Results</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos provident, repudiandae enim, nisi voluptatem perspiciatis non quam fuga esse dignissimos perferendis.</p>
+                        <a href="#">more</a>
+                    </div>
+                </div>
+
+                <div class="benefits-col">
+                    <div class="benefits-card">
+                        <h2 class="purple">04</h2>
+                        <h4 class="purple">Best Pricing</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos provident, repudiandae enim, nisi voluptatem perspiciatis non quam fuga esse dignissimos perferendis.</p>
+                        <a href="#">more</a>
+                    </div>
+                </div>
+
+                <div class="benefits-col">
+                    <div class="benefits-card">
+                        <h2 class="purple">05</h2>
+                        <h4 class="purple">Innovation</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos provident, repudiandae enim, nisi voluptatem perspiciatis non quam fuga esse dignissimos perferendis.</p>
+                        <a href="#">more</a>
+                    </div>
+                </div>
+
+                <div class="benefits-col">
+                    <div class="benefits-card">
+                        <h2 class="purple">06</h2>
+                        <h4 class="purple">24/7 Support</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos provident, repudiandae enim, nisi voluptatem perspiciatis non quam fuga esse dignissimos perferendis.</p>
+                        <a href="#">more</a>
+                    </div>
+                </div>
                    
-                </div>
 
-                <div class="benefits-col">
-                
-                </div>
-
-                <div class="benefits-col">
-                    
-                </div>
-
-                <div class="benefits-col">
-                
-                </div>
-
-                <div class="benefits-col">
-                    <div class="benefits-card"></div>
-                </div>
-
-                <div class="benefits-col">
-                    <div class="benefits-card"></div>
-                </div>
 
             </div>
         </div>
